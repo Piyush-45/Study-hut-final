@@ -383,7 +383,7 @@ footer {
 
 .logo {
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
     border: none;
     border-radius: 50;
     /* height: 2rem; */
@@ -477,7 +477,7 @@ h3 {
 
 .logo {
     width: 100%;
-    /* height: 5rem; */
+    height: 5rem;
 }
 
 .contact_direction {
@@ -626,6 +626,10 @@ width: 100%;
 
     .logo{
         width: 100%;
+    }
+    .main_logo{
+        width: 100%;
+        /* height: 5rem; */
     }
     
  
